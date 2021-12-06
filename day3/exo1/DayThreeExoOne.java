@@ -16,8 +16,6 @@ public class DayThreeExoOne {
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
 
-        Map<Integer, char[]> map = new HashMap<>();
-
         List<List<Integer>> allNumbers = new ArrayList<>();
 
         // Détermine si on passe pour la 1e fois pour init l'array

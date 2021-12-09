@@ -9,6 +9,7 @@ import day4.exo1.DayFourExoOne;
 import day4.exo2.DayFourExoTwo;
 import day5.exo1.DayFiveExoOne;
 import day5.exo2.DayFiveExoTwo;
+import day6.exo1.DaySixExoOne;
 
 public class Main {
 
@@ -36,8 +37,13 @@ public class Main {
          * dayFiveExoOne.main();
          */
 
-        DayFiveExoTwo dayFiveExoTwo = new DayFiveExoTwo();
-        dayFiveExoTwo.main();
+        /*
+         * DayFiveExoTwo dayFiveExoTwo = new DayFiveExoTwo();
+         * dayFiveExoTwo.main();
+         */
+
+        DaySixExoOne  daySixExoOne = new DaySixExoOne();
+        daySixExoOne.main();
     }
 
 }
